@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries with Dollar Currency</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+ 
+  <div class="search-container topSection">
+    <h1>Countries with Dollar Currency</h1>
+    <input type="search" id="search-input" placeholder="Search by country, capital, or currency for filtering the Data!">
+    <button id="back-button" style="display: none;">Back to All Countries </button> 
+  </div>
+ 
+
+    <div id="cards-container"></div>
+
+    <div id="modal-overlay">
+      <div id="modal">
+        <div id="modal-content">
+          <img src="" alt=" " id="modal-flag" style: width="150px"; height="100px";">
+          <h2 id="modal-country-name"></h2>
+          <p id="modal-capital"></p>
+          <p id="modal-currency"></p>
+          <p id="modal-region" class="region"></p>
+          <p id="modal-subregion" class="subregion"></p>
+          <p id="modal-population" class="population"></p>
+          <span id="close-modal">&times;</span>
+        </div>
+      </div>
+    </div>
+    
+
+
+
+
+    <script src="api.js"></script>
+</body>
+</html>
